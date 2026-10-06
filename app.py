@@ -13,7 +13,7 @@ from werkzeug.utils import secure_filename
 from datetime import datetime
 from flask import Flask, session, render_template, request, redirect, url_for
 
-MONGO_URL = "mongodb+srv://sanikashewale24_db_user:Sanika%4017_23_24@cluster0.39pyg8u.mongodb.net/?appName=Cluster0"
+MONGO_URL = "---"
 
 
 app = Flask(__name__)
